@@ -150,11 +150,11 @@ public class Solution{
 		lostArray[0]=lost1;
 		BookLost lost2 = new BookLost("2", "红楼梦",df.parse("2022-06-06"), "风华操场出口", "李四", "17667675645", "34567", "红楼梦");
 		lostArray[1]=lost2;
-		BookLost lost3 = new CardLost("3", "校园一卡通202100003",df.parse("2022-05-25"), "32舍", "王五", "18234567890", "202100003", "王五");
+		CardLost lost3 = new CardLost("3", "校园一卡通202100003",df.parse("2022-05-25"), "32舍", "王五", "18234567890", "202100003", "王五");
 		lostArray[2]=lost3;
-		BookLost lost4 = new CardLost("4", "校园一卡通202100002",df.parse("2022-04-01"), "太极运动场","钱六", "13178785656", "202100002", "钱六");
+		CardLost lost4 = new CardLost("4", "校园一卡通202100002",df.parse("2022-04-01"), "太极运动场","钱六", "13178785656", "202100002", "钱六");
 		lostArray[3]=lost4;
-		BookLost lost5 = new CardLost("5", "校园一卡通202100001",df.parse("2022-03-31"), "皇家一舍", "冯七", "17845390987", "202100001", "冯七");
+		CardLost lost5 = new CardLost("5", "校园一卡通202100001",df.parse("2022-03-31"), "皇家一舍", "冯七", "17845390987", "202100001", "冯七");
 		lostArray[4]=lost5;
 		Solution s = new Solution();
 		s.sortLost(lostArray);
